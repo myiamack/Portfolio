@@ -1,0 +1,17 @@
+:root {
+--accent: #FF69B4;
+--ink: #dda8d9;
+--muted: #c4056e;
+--bg: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: system-ui, -apple-system, sans-serif;
+color: var(--ink);
+line-height: 1.6;
+background: var(--bg);
+}
+header {
+position: sticky;
+top: 0;
+background: var(--bg);
