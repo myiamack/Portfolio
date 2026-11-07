@@ -1,8 +1,11 @@
- :root {
-	--accent: #FF69B4;
-	--ink: #c52424;
-	--muted: #fa88d4;
-	--bg: #ffffff;
+:root {
+	--bg: #0d0b1e;
+	--card: #1c1836;
+	--ink: #f5f0ff;
+	--accent: #ff8fc8;
+	--gold: #f5c86b;
+	--purple: #b79cff;
+	--muted: #c9bfe6;
 }
 
 * {
@@ -12,17 +15,21 @@
 }
 
 body {
-	font-family: system-ui, -apple-system, sans-serif;
+	font-family: 'M PLUS Rounded 1c', system-ui, sans-serif;
 	color: var(--ink);
 	line-height: 1.6;
-	background: var(--bg);
+	background:
+		radial-gradient(circle at 15% 10%, rgba(255, 143, 200, 0.18), transparent 40%),
+		radial-gradient(circle at 85% 20%, rgba(183, 156, 255, 0.18), transparent 40%),
+		var(--bg);
+	min-height: 100vh;
 }
 
 header {
 	position: sticky;
 	top: 0;
 	background: var(--bg);
-	border-bottom: 1px solid #e5e7eb;
+	border-bottom: 1px solid rgba(183, 156, 255, 0.25);
 }
 
 nav {
@@ -35,11 +42,15 @@ nav {
 nav a {
 	text-decoration: none;
 	color: var(--ink);
-	font-weight: 600;
+	font-weight: 700;
+	padding: 0.4rem 1rem;
+	border-radius: 999px;
+	transition: background 0.2s, color 0.2s;
 }
 
 nav a:hover {
-	color: var(--accent);
+	background: var(--accent);
+	color: var(--bg);
 }
 
 main {
@@ -47,10 +58,14 @@ main {
 	margin: 0 auto;
 	padding: 2rem 1.25rem;
 }
+main a {
+	color: var(--accent);
+	font-weight: 700;
+}
 
 section {
 	padding: 2.5rem 0;
-	border-bottom: 1px solid #f0f0f0;
+	border-bottom: 1px solid rgba(183, 156, 255, 0.15);
 }
 
 #hero {
@@ -59,7 +74,10 @@ section {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.75rem;
+	font-weight: 800;
+	color: var(--gold);
+	text-shadow: 0 0 18px rgba(255, 143, 200, 0.6);
 }
 
 .tagline {
@@ -74,10 +92,23 @@ h2 {
 }
 
 .project {
-	padding: 1rem;
-	border: 1px solid #e5e7eb;
-	border-radius: 8px;
-	margin-bottom: 1rem;
+	background: var(--card);
+	padding: 1.25rem 1.5rem;
+	border: 2px solid var(--purple);
+	border-radius: 24px;
+	margin-bottom: 1.25rem;
+	transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.project:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 0 20px rgba(255, 143, 200, 0.45);
+	border-color: var(--accent);
+}
+
+.project h3 {
+	color: var(--gold);
+	margin-bottom: 0.5rem;
 }
 
 footer {
