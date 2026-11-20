@@ -6,7 +6,14 @@
 	--gold: #f5c86b;
 	--purple: #b79cff;
 	--muted: #c9bfe6;
+	--glow: rgba(255, 143, 200, 0.6);
 }
+.roots     { --accent: #8ee6c4; --glow: rgba(142, 230, 196, 0.6); }
+.sprouting { --accent: #b79cff; --glow: rgba(183, 156, 255, 0.6); }
+.branching { --accent: #ff8fc8; --glow: rgba(255, 143, 200, 0.6); }
+.bloom     { --accent: #f5c86b; --glow: rgba(245, 200, 107, 0.6); }
+.harvest   { --accent: #ffb38a; --glow: rgba(255, 179, 138, 0.6); }
+
 
 * {
 	box-sizing: border-box;
@@ -155,7 +162,7 @@ h2 {
 .level-tile:hover,
 .level-tile:focus-visible {
 	transform: translateY(-4px) scale(1.03);
-	box-shadow: 0 0 20px rgba(255, 143, 200, 0.45);
+	box-shadow: 0 0 20px var(--glow);
 	border-color: var(--accent);
 }
 
@@ -163,7 +170,7 @@ h2 {
 	font-size: 2.25rem;
 	line-height: 1;
 	color: var(--accent);
-	text-shadow: 0 0 12px rgba(255, 143, 200, 0.6);
+	text-shadow: 0 0 12px var(--glow);
 }
 
 .tile-sub {

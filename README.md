@@ -33,7 +33,6 @@ No installs are needed. This site uses only HTML and CSS.
   - **Harvest** – Career
 - Scroll to **Projects** to see my Medline and Geek Week SQL Survival Guide work.
 
-<!-- Only Roots (wellness.html) exists right now. Add "coming soon" to the others, or remove this note once they're built. -->
 
 ## Built With
 - HTML
