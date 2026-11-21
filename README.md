@@ -44,3 +44,4 @@ No installs are needed. This site uses only HTML and CSS.
 Created by Myia Mack, i.c.stars Cohort 60.
 I used Claude (AI) as a coding tutor to explain concepts and review my work.
 I wrote and typed all of the code and content myself.
+Claude also cropped and resized my profile photo for faster loading.
