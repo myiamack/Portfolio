@@ -29,6 +29,16 @@
                 <p>A study guide I wrote for my cohort, turning my own mistakes into lessons.</p>
                 <p><a href="geek-week.html">See the project</a></p>
             </article>
+
+            <article class="project">
+                <h3>Debugging: The Floating Tiles</h3>
+                <p>While scrolling down my portfolio, I noticed my Level Select tiles were floating on top of the header instead of sliding under it. I learned the cause was the <code>transform</code> I used to make the tiles lift on hover, which puts them on their own layer above the header. The fix was one line of CSS: adding <code>z-index: 10</code> to the header so it always stays on top. It taught me that every style choice can have side effects, so I need to be specific about how I want each part of my page to behave.</p>
+            </article>
+
+            <article class="project">
+                <h3>Where It Clicked: Task 5</h3>
+                <p>Coding clicked for me during Geek Week, around Task 5, when we moved into Excel. I had used Excel in at a technology high school, and I realized the formulas followed the same patterns I learned in math. It felt like receiving downloads: my brain was doing a wide search of everything I had ever learned to make all this new information digestible in a short time. I also learned how I react under stress and how to push past it while staying focused. Going forward, I know I won't always understand everything at first, but if I push and encourage myself in a healthy way, I will succeed.</p>
+            </article>
 		</section>
 
 		<p class="back-link"><a href="index.html#levels">← Back to Level Select</a></p>
