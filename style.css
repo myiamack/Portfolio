@@ -245,3 +245,34 @@ code {
 		align-items: center;
 	}
 }
+
+/* Featured demo: centered text */
+.featured-text {
+	text-align: center;
+}
+
+.featured-buttons {
+	justify-content: center;
+}
+
+/* About Me + Featured demo side by side (stacks on phones) */
+.split h2 {
+	text-align: center;
+}
+
+@media (min-width: 900px) {
+	.split {
+		width: min(1100px, 94vw);
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		align-items: start;
+	}
+
+	.split .featured-card {
+		grid-template-columns: 1fr;
+	}
+}
