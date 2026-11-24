@@ -276,3 +276,36 @@ code {
 		grid-template-columns: 1fr;
 	}
 }
+
+/* Photos inside a card */
+.card-photos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.card-photos figure {
+	margin: 0;
+}
+
+.card-photos img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 16px;
+	border: 2px solid var(--purple);
+}
+
+.card-photos figcaption {
+	margin-top: 0.4rem;
+	text-align: center;
+	color: var(--muted);
+	font-size: 0.9rem;
+}
+
+/* Dream Speech page */
+.speech p {
+	margin-bottom: 1rem;
+	line-height: 1.7;
+}
