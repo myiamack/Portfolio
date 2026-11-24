@@ -15,14 +15,6 @@ first clicked for me, long before I knew it could be a career. I built this site
 to show my technical skills to recruiters and the tech community, and to tell
 the story of how my roots led me to tech.
 
-## Setup
-No installs are needed. This site uses only HTML and CSS.
-
-1. Clone the repository:
-   git clone https://github.com/myiamack/Portfolio.git
-2. Open the `Portfolio` folder.
-3. Double-click `index.html` to open it in your web browser.
-
 ## How to Use
 - Use the top menu to jump to **About**, **Projects**, or **Contact**.
 - In **Level Select**, click a tile to open that level:
@@ -31,17 +23,17 @@ No installs are needed. This site uses only HTML and CSS.
   - **Branching Out** – Leadership
   - **In Bloom** – Business
   - **Harvest** – Career
-- Scroll to **Projects** to see my Medline and Geek Week SQL Survival Guide work.
-
+- At the top, **Featured: My Live Demo** opens my To Disrupt game.
+- Hover over a Level Select tile to preview what's inside.
+- Scroll to **Projects** to see my Medline, Geek Week SQL Survival Guide, Buffalo Soldiers comic, and Year of the Horse work.
 
 ## Built With
 - HTML
 - CSS
+- JavaScript
 - Google Fonts (M PLUS Rounded 1c)
 - VS Code, Git, and GitHub
 
 ## Credits
 Created by Myia Mack, i.c.stars Cohort 60.
-I used Claude (AI) as a coding tutor to explain concepts and review my work.
-I wrote and typed all of the code and content myself.
-Claude also cropped and resized my profile photo for faster loading.
+I designed this site and made every decision about its layout, wording, and content. I used Claude (AI) as a coding tutor and assistant: it explained concepts, helped draft and edit some code and card text based on my answers, and reviewed my work. I reviewed, tested, and committed every change myself. Claude also cropped and resized my profile photo for faster loading.
