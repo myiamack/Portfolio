@@ -18,11 +18,6 @@ the story of how my roots led me to tech.
 ## Setup
 No installs are needed. This site uses only HTML and CSS.
 
-1. Clone the repository:
-   git clone https://github.com/myiamack/Portfolio.git
-2. Open the `Portfolio` folder.
-3. Double-click `index.html` to open it in your web browser.
-
 ## How to Use
 - Use the top menu to jump to **About**, **Projects**, or **Contact**.
 - In **Level Select**, click a tile to open that level:
